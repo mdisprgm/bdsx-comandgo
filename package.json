@@ -1,0 +1,26 @@
+{
+  "name": "@bdsx/comandgo",
+  "version": "1.0.0",
+  "description": "modified joining and leaving messgae",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdisprgm/bdsx-comandgo"
+  },
+  "keywords": [
+    "bdsx",
+    "message",
+    "join",
+    "leave",
+    "comandgo"
+  ],
+  "author": "mdisprgm",
+  "license": "MIT",
+  "bdsxPlugin": true,
+  "devDependencies": {
+      "bdsx": "file:../bdsx"
+  }
+}

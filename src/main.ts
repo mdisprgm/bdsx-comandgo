@@ -6,12 +6,10 @@ events.packetSend(MinecraftPacketIds.Text).on((pkt, ni) => {
     if (pkt.message === "§e%multiplayer.player.joined") {
         const name = pkt.params.get(0);
         pkt.message = `[ §a+§r ] §7${name}`;
-        return CANCEL;
     }
     if (pkt.message === "§e%multiplayer.player.left") {
         const name = pkt.params.get(0);
         pkt.message = `[ §c-§r ] §7${name}`;
-        return CANCEL;
     }
 });
 /*

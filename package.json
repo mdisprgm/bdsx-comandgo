@@ -1,6 +1,6 @@
 {
   "name": "@bdsx/comandgo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "modified joining and leaving messgae",
   "main": "index.js",
   "scripts": {

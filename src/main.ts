@@ -1,5 +1,4 @@
 import { MinecraftPacketIds } from "bdsx/bds/packetids";
-import { CANCEL } from "bdsx/common";
 import { events } from "bdsx/event";
 
 events.packetSend(MinecraftPacketIds.Text).on((pkt, ni) => {
